@@ -1,0 +1,321 @@
+<!DOCTYPE >
+<html>
+<head>
+	<title>CREFITO16</title>
+	<meta name="viewport" content="width=device-width, initial-scaled=1.0">
+	<meta charset="utf-8" />
+	<style type="text/css">
+		/* padrão COFFITO, CREFITO por Gledson Luciano da Silva*/
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+
+		html {
+			background: #c5c5c5;
+		}
+
+		ul {
+			list-style-position: inside;
+		}
+
+		body {
+			background: #fff;
+			font-family:Verdana,sans-serif;
+			font-size:15px;
+			line-height:1.5;
+		}
+
+		h1,h2,h3,h4,h5,h6 {
+			font-family:"Segoe UI",Tahoma,Verdana,sans-serif;
+			font-weight:400;
+		}
+
+		h1 {font-size: 36px;}
+		h2 {font-size: 30px;}
+		h3 {font-size: 24px;}
+		h4 {font-size: 20px;}
+		h5 {font-size: 18px;}
+		h6 {font-size: 16px;}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx responsive*/
+	.col-col {
+		width: 99.99999%;
+	}
+	.col-metade {
+		width: 49.99999% !important;
+	}
+
+	.col-terco {
+		width: 33.33333% !important;
+	}
+ 
+ 	.col-2terco {
+ 		width: 66.66666% !important;
+ 	}
+	.col-quarto {
+		width: 24.99999% !important;
+	}
+
+	.col-3quarto {
+		width: 74.99999% !important;
+	}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx geral*/
+		#geral {
+			margin: 0 auto;
+			border:1px solid red;
+			max-width: 1020px;
+			overflow: hidden;
+			position: relative;
+		}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx top*/
+		#topo {
+			border:1px solid red;
+			position: relative;
+			margin: 0 0 00;
+			overflow: hidden;
+		}
+
+		#logo {
+			border: 1px solid red;
+			float: left;
+			width: 100%;
+			height: 115px;
+			background: gray;
+		
+		}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx menu top*/
+		#menu {
+			border: 1px solid red;
+			position: relative;
+			overflow: hidden;
+		}
+		#menu a {
+			text-decoration: none;
+			border:1px solid red;
+			background: #000;
+			color: #fff;
+			width: 100%;
+			padding: 10px;
+		}
+
+		#menu a:hover {
+			background: #fff;
+			color: #000;
+		}
+		#menu ul li {
+			margin: 0 5px;
+			display: inline-block;
+			border: 1px solid blue;
+			overflow: hidden;
+			height: 30px;
+
+		}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx acessibilidade*/
+
+	#acessibilidade {
+		margin: 0 0 10px;
+		border:1px solid green;
+		height: 20px;
+		width: 100%;
+	}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx menu lateral*/
+		#menuLateral {
+			border:1px solid red;
+			float: left;
+			height: 100%;
+			background: #f0f0f0;
+			float: left;
+			overflow: hidden;
+			position: relative;
+		}
+
+		#menuLateral ul li {
+			line-height: 1.5em;
+			list-style-type: none;
+		}
+		.contMenuLateral {
+			margin: 20px auto;
+			padding: 5px;
+			background: #fff;
+			height: 200px;
+			border: 1px solid red;
+		}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx conteudo*/		
+		#conteudo {
+			border:1px solid red;
+			background: #f5f5f5;
+			height: 100%;
+			float: left;
+			overflow: hidden;
+			position: relative;
+		}
+
+		#contBanner {
+			height: 200px;
+			width: 100%;
+			margin: 0 0 10px;
+		}
+		.imgBanner {
+			background: #666;
+			height: 100%;
+		}
+
+		.artigo {
+			margin: 20px 0 ;
+		}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx rodape*/
+		#geralRodape {
+
+			border:1px solid red;
+			background: #c5c5c5;
+			position: relative;
+		}
+		#contRodape {
+			margin: 0 auto;
+			height: 100px;
+			max-width: 1020px;
+			border: 1px solid red;
+			background: black;
+
+		}
+
+		#enderecoRodape {
+			float: left;
+			background: #d5d5d5;
+			height: 50px;
+			width: 70%;
+		}
+		#midiaRodape {
+			height: 50px;
+			width: 30%;
+			float: left;
+			background: #f9f9f9;
+
+
+		}
+	</style>
+</head>
+<body>
+<div id="geral">
+	<div id="topo">
+		<div id="logo">
+
+		</div>
+		<div id="menu">
+			<nav>
+				<ul>
+					<li><a href="">item menu</a></li>
+					<li><a href="">item menu</a></li>
+					<li><a href="">item menu</a></li>
+					<li><a href="">item menu</a></li>
+					<li><a href="">item menu</a></li>
+					<li><a href="">item menu</a></li>
+					<li><a href="">item menu</a></li>
+					<li><a href="">item menu</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div><!--top-->
+	<div id="acessibilidade"></div>
+
+	<div id="menuLateral" class="col-quarto">
+		<aside>
+			<div id="contMenuServico" class="contMenuLateral">
+				<nav>
+					<ul>
+						<li><a href="">item menu lateral</a></li>
+						<li><a href="">item menu lateral</a></li>
+						<li><a href="">item menu lateral</a></li>
+						<li><a href="">item menu lateral</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div id="contMenuInfo" class="contMenuLateral">
+				<nav>
+					<ul>
+						<li><a href="">item menu lateral</a></li>
+						<li><a href="">item menu lateral</a></li>
+						<li><a href="">item menu lateral</a></li>
+						<li><a href="">item menu lateral</a></li>
+					</ul>
+				</nav>
+			</div>		
+		</aside>
+	</div><!--menuLateral-->
+
+	<div id="conteudo" class="col-3quarto">
+	<section>
+		<div id="contBanner">
+			<div class="imgBanner"></div>
+		</div>
+		<div class="artigo">
+			<article>
+				<div class="artTopo">
+					<header>
+						<h1>Título Artigo</h1>
+					</header>
+				</div>
+				<div class="artCont">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed </p>
+				</div>
+				<div class="artFoot">
+					<footer>
+						<p>Rodapé artigo</p>
+					</footer>
+				</div>
+
+			</article>
+		</div>
+
+		<div class="artigo">
+			<article>
+				<div class="artTopo">
+					<header>
+						<h1>Título Notícias</h1>
+					</header>
+				</div>
+				<div class="artCont">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed </p>
+					<ul>
+						<li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra</a></li>
+						<li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra</a></li>
+						<li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra</a></li>
+						<li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra</a></li>
+						<li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra</a></li>
+						<li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra</a></li>
+					</ul>
+				</div>
+				<div class="artFoot">
+					<footer>
+						<p>Rodapé artigo</p>
+					</footer>
+				</div>
+
+			</article>
+		</div>
+	</section>
+	</div><!--conteudo-->
+
+</div><!--geral-->
+<div id="geralRodape">
+	<div id="contRodape">
+		<footer>
+			<div id="enderecoRodape">
+				<address>
+					qnl
+				</address>
+
+			</div>
+			<div id="midiaRodape">
+				face
+			</div>
+		</footer>
+	</div>
+</div><!--geralRodape-->
+</body>
+</html>
