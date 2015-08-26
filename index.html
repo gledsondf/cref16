@@ -39,33 +39,41 @@
 		h5 {font-size: 18px;}
 		h6 {font-size: 16px;}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx responsive*/
-	.col-col {
-		width: 99.99999%;
-	}
-	.col-metade {
-		width: 49.99999% !important;
+	.col-col {width: 99.99999%;}
+	.col-metade {width: 49.99999%;}
+	.col-terco {width: 33.33333% ;}
+  	.col-2terco {width: 66.66666%;}
+	.col-quarto {width: 24.99999%;}
+	.col-3quarto {width: 74.99999%;}
+
+	.col-1 { width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%; }
+	.col-5 {width: 41.66%; }
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%; }
+
+	[class*="col-"] {
+		float: left;
+		border: 1px solid red;
 	}
 
-	.col-terco {
-		width: 33.33333% !important;
-	}
- 
- 	.col-2terco {
- 		width: 66.66666% !important;
- 	}
-	.col-quarto {
-		width: 24.99999% !important;
-	}
-
-	.col-3quarto {
-		width: 74.99999% !important;
+	.row::after {
+		content: "";
+		display: block;
+		clear: both;
 	}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx geral*/
 		#geral {
 			margin: 0 auto;
 			border:1px solid red;
 			max-width: 1020px;
-			overflow: hidden;
 			position: relative;
 		}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx top*/
@@ -73,13 +81,10 @@
 			border:1px solid red;
 			position: relative;
 			margin: 0 0 00;
-			overflow: hidden;
+
 		}
 
 		#logo {
-			border: 1px solid red;
-			float: left;
-			width: 100%;
 			height: 115px;
 			background: gray;
 		
@@ -88,26 +93,25 @@
 		#menu {
 			border: 1px solid red;
 			position: relative;
-			overflow: hidden;
 		}
+
 		#menu a {
 			text-decoration: none;
-			border:1px solid red;
 			background: #000;
 			color: #fff;
-			width: 100%;
-			padding: 10px;
+			padding:3px;
+			display: block;
 		}
 
 		#menu a:hover {
 			background: #fff;
 			color: #000;
 		}
+
 		#menu ul li {
-			margin: 0 5px;
+			margin: 2px 5px;
 			display: inline-block;
 			border: 1px solid blue;
-			overflow: hidden;
 			height: 30px;
 
 		}
@@ -117,17 +121,13 @@
 		margin: 0 0 10px;
 		border:1px solid green;
 		height: 20px;
-		width: 100%;
 	}
 
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx menu lateral*/
 		#menuLateral {
 			border:1px solid red;
-			float: left;
 			height: 100%;
 			background: #f0f0f0;
-			float: left;
-			overflow: hidden;
 			position: relative;
 		}
 
@@ -146,9 +146,6 @@
 		#conteudo {
 			border:1px solid red;
 			background: #f5f5f5;
-			height: 100%;
-			float: left;
-			overflow: hidden;
 			position: relative;
 		}
 
@@ -182,7 +179,6 @@
 		}
 
 		#enderecoRodape {
-			float: left;
 			background: #d5d5d5;
 			height: 50px;
 			width: 70%;
@@ -190,7 +186,6 @@
 		#midiaRodape {
 			height: 50px;
 			width: 30%;
-			float: left;
 			background: #f9f9f9;
 
 
@@ -198,8 +193,14 @@
 	</style>
 </head>
 <body>
-<div id="geral">
-	<div id="topo">
+	<div class="row">
+		<div class="col-3">gledson</div>
+		<div class="col-9">luciano</div>
+		<div style="border:1px solid black;float:left;">colocada após dentro</div>
+	</div>
+
+<div id="geral" class="row">
+	<div id="topo" class="row">
 		<div id="logo">
 
 		</div>
@@ -218,7 +219,7 @@
 			</nav>
 		</div>
 	</div><!--top-->
-	<div id="acessibilidade"></div>
+	<div id="acessibilidade" class="row"></div>
 
 	<div id="menuLateral" class="col-quarto">
 		<aside>
@@ -246,7 +247,7 @@
 		</aside>
 	</div><!--menuLateral-->
 
-	<div id="conteudo" class="col-3quarto">
+	<div id="conteudo" class="col-3quarto row">
 	<section>
 		<div id="contBanner">
 			<div class="imgBanner"></div>
@@ -303,15 +304,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulpu
 
 </div><!--geral-->
 <div id="geralRodape">
-	<div id="contRodape">
+	<div id="contRodape" class="row">
 		<footer>
-			<div id="enderecoRodape">
+			<div id="enderecoRodape" class="col-quarto">
 				<address>
 					qnl
 				</address>
 
 			</div>
-			<div id="midiaRodape">
+			<div id="midiaRodape" class="col-3quarto">
 				face
 			</div>
 		</footer>
