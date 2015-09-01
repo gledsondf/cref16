@@ -1,4 +1,5 @@
 		/* padrão COFFITO, CREFITO por Gledson Luciano da Silva*/
+		@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
 		* {
 			padding: 0;
 			margin: 0;
@@ -18,11 +19,17 @@
 			font-family:Verdana,sans-serif;
 			font-size:15px;
 			line-height:1.5;
+			background-image: url("../img/contours-opaque.png"),url("../img/bamboo.png");
+			
+			background-position:0 ;
+			background-repeat: repeat-y;
+			background-size: 35%;
 		}
 
 		h1,h2,h3,h4,h5,h6 {
 			font-family:"Segoe UI",Tahoma,Verdana,sans-serif;
-			font-weight:400;
+			font-family: 'Julius Sans One', sans-serif;
+			font-weight:500;
 		}
 
 		h1 {font-size: 36px;}
@@ -41,6 +48,9 @@
 			margin: 0 auto;
 			max-width: 1020px;
 			position: relative;
+			background-image: url("../img/contours-opaque.png"),url("../img/bamboo.png");
+			background-repeat: repeat-y;
+			background-size: 25%;
 
 		}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx top*/
@@ -109,6 +119,7 @@
 
 		#menu ul li ul li a {
 			background: #477161;
+			background: #678A83;
 		}
 
 		#menu ul li ul li {
@@ -123,8 +134,8 @@
 			display: block;
 			z-index: 5000;
 			border-top: 2px solid #fff;
-			border-radius: 0 0 10px 10px; 
-			width: 306px;
+			/*border-radius: 0 0 10px 10px; */
+			width: 305px;
 			background: #62917F;
 			background: #164547;
 			padding: 0 0 10px;
@@ -137,13 +148,12 @@
 
 		#acessibilidade {
 			margin: 0 0 10px;
-			border:1px solid green;
-			height: 20px;
+/*			border:1px solid green;
+*/			height: 20px;
 		}
 
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx menu lateral*/
 		#menuLateral {
-			background: #fff;
 			position: relative;
 		}
 
@@ -152,6 +162,7 @@
 			display: block;
 			padding: 3px;
 			background-color :#33b5e5;
+			background:#678A83;
 			color: #fff;
 			transition:all 0.3s linear;
 			-webkit-transition:all 0.3s linear;
@@ -159,6 +170,8 @@
 
 		#menuLateral a:hover {
 			background-color: #0099cc;
+			background: #164547;
+
 		}
 
 		#menuLateral ul li {
@@ -168,6 +181,7 @@
 			box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 			position: relative;
 			background:#0099cc;
+			background: #164547;
 		}
 
 		#menuLateral ul li:hover {
@@ -195,17 +209,21 @@
 			display: block;
 			padding: 3px 3px 3px 10px;
 			background-color :#057398;
+			background: #678A83;
 			color: #fff;
 		}
 		#menuLateral ul li ul li a:hover {
 			background-color :#0099cc;
+			background: #164547;
 		}
 
 		#menuLateral ul li ul {
 			padding: 0 0 10px;
 			background:#0099cc;
-			border-radius: 0 0 10px 10px; 
-		}
+			background: #164547;
+/*			border-radius: 0 0 10px 10px; 
+
+*/		}
 		#menuLateral ul li ul li  {
 
 			margin: 0;
@@ -213,14 +231,24 @@
 			list-style-type: none;
 			box-shadow:none;
 			background-color: #0099cc;
+			background-color :#057398;
+
 
 		}
 		.contMenuLateral {
-			margin: 20px auto;
-			padding: 5px;
-			background: #fff;
-			height: 200px;
+			margin: 0px auto 20px;
+			padding: 0 5px ;
+
 		}
+
+		.contMenuLateral h1 {
+			color: #2e484c;
+			font-family: 'Julius Sans One', sans-serif;
+			font-size: 20px;
+			font-weight: normal;
+			text-transform: uppercase;
+		}
+
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx conteudo*/		
 		#conteudo {
 			background: #fff;
@@ -231,7 +259,7 @@
 		#contBanner {
 			height: 200px;
 			width: 100%;
-			margin: 0 0 10px;
+			margin: 5px 0 10px;
 			padding: 0 16px;
 		}
 		.imgBanner {
@@ -240,8 +268,8 @@
 		}
 
 		div.artigo {
-			margin: 20px 0 ;
-			padding: 1px 16px;
+			margin: 0 0 20px;
+			padding: 0px 16px;
 		}
 
 		div.artigo h1 {
@@ -252,28 +280,35 @@
 		#geralRodape {
 
 			background: #c5c5c5;
+			background: #C5DECF;
+			background: #164547;
 			position: relative;
 		}
 		#contRodape {
 			margin: 0 auto;
 			height: 100px;
 			max-width: 1020px;
-			background: black;
+			
 
 		}
 
 		#enderecoRodape {
-			background: #d5d5d5;
+			
 			height: 50px;
 			width: 70%;
 		}
 		#midiaRodape {
 			height: 50px;
 			width: 30%;
-			background: #f9f9f9;
+			
 
 
 		}
+
+		/*box-shadow:0px 0px 10px -1px #AAA
+		padding:20px 0;
+		border-radius:5px;
+		background:rgba(105, 141, 133, 0.27)*/
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx responsive*/
 	.col-col {width: 99.99999%;}
 	.col-metade {width: 49.99999%;}
