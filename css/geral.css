@@ -273,10 +273,14 @@
 			color: #2E484C;
 		}
 		#contBanner {
-			height: 200px;
 			width: 100%;
 			margin: 5px 0 10px;
 			padding: 0 16px;
+/*			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+*/		}
+		#contBanner a {
+			text-decoration: none;
+			font-size: 34px;
 		}
 		.imgBanner {
 			background: #666;
