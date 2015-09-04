@@ -43,6 +43,14 @@
 			max-width: 100%;
 			height: auto;
 		}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx formularios*/
+input, textarea {
+	display: block;
+}
+input[type="checkbox"] {
+	display: none;
+	border:1px solid red;
+}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx geral*/
 		#geral {
 			margin: 0 auto;
