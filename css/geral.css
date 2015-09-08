@@ -43,14 +43,58 @@
 			max-width: 100%;
 			height: auto;
 		}
+
+		.responsive {
+			overflow-x:auto;
+		}
+		.menuP {
+			display: none;
+		}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx formularios*/
-input, textarea {
-	display: block;
-}
-input[type="checkbox"] {
-	display: none;
-	border:1px solid red;
-}
+		input, textarea,select,button,label {
+			display: block;
+			margin: 5px;
+		}
+
+		input[type="checkbox"],input[type="radio"]  {
+			display: inline-block;
+		}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx tabelas*/
+		table {
+			width: 100%;
+			display: table;
+			border-spacing: 0;
+			border-collapse: collapse;
+			border:1px solid red;
+		}
+		thead {
+			display: table-header-group;
+			vertical-align: middle;
+		}
+		tbody {
+			display: table-row-group;
+			vertical-align: middle;
+
+		}
+		table tr {
+			border:1px solid #d0d0d0;
+			display: table-row;
+		}
+
+		table tbody tr:nth-child(odd) {
+			background: #f2f2f2;
+		}
+
+		table tbody tr:hover {
+			background: #d5d5d5;
+		}
+		table td, th {
+			padding: 6px 8px;
+			display: table-cell;
+			text-align: left;
+			vertical-align: top;
+		}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx geral*/
 		#geral {
 			margin: 0 auto;
@@ -260,6 +304,11 @@ input[type="checkbox"] {
 			text-transform: uppercase;
 		}
 
+		div#contMenuServico {
+
+		}
+
+		div#contMenuAcessoRapido {}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx conteudo*/		
 		#conteudo {
 			background: #fff;
@@ -441,6 +490,20 @@ input[type="checkbox"] {
 
 		[class*="col-"]{
 			width: 100%;
+		}
+
+
+
+		div#acessibilidade,div#menuLateral,div#contMenuServico,div#contMenuAcessoRapido {
+			display: none;
+		}
+
+		.menuN {
+			display: none;
+		}
+
+		.menuP {
+			display: block;
 		}
 	}
 
