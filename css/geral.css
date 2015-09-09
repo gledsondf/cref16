@@ -47,9 +47,7 @@
 		.responsive {
 			overflow-x:auto;
 		}
-		.menuP {
-			display: none;
-		}
+
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx formularios*/
 		input, textarea,select,button,label {
 			display: block;
@@ -196,9 +194,33 @@
 			padding: 0 0 10px;
 			box-shadow: 0 1px 20px 3px rgba(0,0,0,0.24);
 
-			
-
 		}
+		#menuP {
+			display: none;
+		}
+
+		#menuP a:hover {
+			background:rgba(255,255,255,0.5);
+			display: block;
+			border-radius: 25px;
+		}	
+
+		li.fecharMenu {
+			display: none !important;
+		}
+		li.fecharMenu a {
+			text-decoration: none;
+
+			background: #164547 !important;
+			padding:3px !important;
+			display: block !important;
+		}		
+		li.fecharMenu a:hover img {
+			background:rgba(255,255,255,0.5) !important;
+			display: block !important;
+			border-radius: 25px !important;
+		}
+
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx acessibilidade*/
 
 		#acessibilidade {
@@ -492,18 +514,55 @@
 			width: 100%;
 		}
 
-
-
-		div#acessibilidade,div#menuLateral,div#contMenuServico,div#contMenuAcessoRapido {
+		div#contBanner {
 			display: none;
 		}
 
-		.menuN {
+		div#acessibilidade{
 			display: none;
 		}
 
-		.menuP {
+
+		#menuN {
+			display: none;
+			position: fixed;
+			top: 10px;
+			z-index: 50000;
+			width: 90%;
+			box-shadow: 7px 10px 38px 4px rgba(0,0,0,0.80);
+			background: #164547;
+
+		}
+		#menuN li {
+			margin: 0;
+			display: block !important;
+
+		}
+
+		#menuN li ul {
+			display: block !important;
+			position: relative !important;
+
+		}
+
+		#menuN li ul li {
+			width: 100% !important;
+		}
+		
+		#menu ul li:hover >ul {
+			border-top:0 !important;
+			width: 100% ;
+			background: #164547;
+			padding: 0 ;
+			box-shadow: 0 !important;
+
+		}	
+		#menuP {
 			display: block;
+		}
+
+		#midiaRodape {
+			text-align: left;
 		}
 	}
 

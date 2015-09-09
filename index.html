@@ -24,14 +24,16 @@
 				<img src="img/logoCrefito16_nome.png" />
 			</div>
 		</div>
-		<div id="menu" class="">
+		<div id="menu">
 			<nav>
-				<ul class="menuP">
+				<ul id="menuP">
 					<li>
-						<a href="#"><img src="img/tresmenu.png" /></a>
+						<a href="#" onclick="abreMenu()"><img src="img/tresmenu.png" /></a>
 					</li>
+
 				</ul>
-				<ul class="menuN">
+				<ul id="menuN">
+					<li class="fecharMenu" ><a href="#" onclick="fecharMenu()"><img src="img/fecharMenu.png" /></a></li>
 					<li><a href="">item menu</a>
 						<ul>
 							<li><a href="">item menu lateral</a></li>
@@ -322,7 +324,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulpu
 	</div><!--conteudo-->
 
 </div><!--geral-->
-<div id="geralRodape">
+<div id="geralRodape" class="row">
 	<div id="contRodape" class="row">
 		<footer>
 			<div id="enderecoRodape" class="col-2terco">
@@ -346,5 +348,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulpu
 		</footer>
 	</div>
 </div><!--geralRodape-->
+
+<script type="text/javascript">
+	function abreMenu() {
+		document.getElementById("menuN").style.display="block";
+	}
+	function fecharMenu() {
+		//alert("teste");
+		document.getElementById("menuN").style.display="none";
+	}
+</script>
 </body>
 </html>
