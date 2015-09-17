@@ -11,12 +11,12 @@
 			</div>
 			<div id="midiaRodape" class="col-terco">
 				<ul>
-					<li><a href="#"><img title="facebook"  alt="facebook" src="img/logoFace.png" /></a></li>
-					<li><a href="#"><img title="Youtube"  alt="Youtube" src="img/logoYoutube.png" /></a></li>
-					<li><a href="#"><img title="Twitter"  alt="Twitter" src="img/logoTwitter.png" /></a></li>
-					<li><a href="#"><img title="Instagram"  alt="Instagram" src="img/logoInstagram.png" /></a></li>
-					<li><a href="#"><img title="Flickr"  alt="Flickr" src="img/logoFlickr.png" /></a></li>
-					<li><a href="#"><img title="Whatsapp"  alt="Whatsapp" src="img/logoWhatsapp.png" /></a></li>
+					<li><a href="#"><img title="facebook"  alt="facebook" src="<?php bloginfo('template_url'); ?>/img/logoFace.png" /></a></li>
+					<li><a href="#"><img title="Youtube"  alt="Youtube" src="<?php bloginfo('template_url'); ?>/img/logoYoutube.png" /></a></li>
+					<li><a href="#"><img title="Twitter"  alt="Twitter" src="<?php bloginfo('template_url'); ?>/img/logoTwitter.png" /></a></li>
+					<li><a href="#"><img title="Instagram"  alt="Instagram" src="<?php bloginfo('template_url'); ?>/img/logoInstagram.png" /></a></li>
+					<li><a href="#"><img title="Flickr"  alt="Flickr" src="<?php bloginfo('template_url'); ?>/img/logoFlickr.png" /></a></li>
+					<li><a href="#"><img title="Whatsapp"  alt="Whatsapp" src="<?php bloginfo('template_url'); ?>/img/logoWhatsapp.png" /></a></li>
 				</ul>
 				
 				
