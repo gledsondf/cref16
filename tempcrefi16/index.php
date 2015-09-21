@@ -91,43 +91,7 @@
 		<?php /* Criando uma div com um ID único graças ao the_ID() e classes semânticas com o post_class() */ ?>
 				<div id="post-<?php the_ID(); ?>" class="artigo">
 					<article>
-						<div class="artTopo">
-							<header>
-		<?php /* um título h1 */ ?>						
-								<h1><a href="<?php the_permalink(); ?>" title="<?php printf( __('Permalink to %s', 'your-theme'), the_title_attribute('echo=0') ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
-							</header>
-							<div class="artInfo">
-								<ul>
-									<li><span>Data: </span><?php the_time( get_option( 'date_format' ) ); ?></li>
-								</ul>
-							</div>
-						</div><!--artTopo-->
-						<div class="artCont">
-		<?php /* O conteúdo da postagem */ ?>
-							<?php the_content( __( 'Continue reading <span class="meta-nav">»</span>', 'your-theme' )  ); ?>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Clique aqui</a>Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed </p>
-						</div>
-						<div class="artFoot">
-							<footer>
-								<div class="col-2terco">
-									<ul>
-										<li><span>categoria:</span><?php echo get_the_category_list(', '); ?></li>
-										<li><?php edit_post_link( __( 'Edit')) ?></li>
-									</ul>
-									
-									<p>CREFFITO 16</p>
-								</div>
-								<ul class="col-terco">
-									<li><a href="#"><img title="facebook"  alt="facebook" src="<?php bloginfo('template_url'); ?>/img/logoFace_p.png" /></a></li>
-									<li><a href="#"><img title="Youtube"  alt="Youtube" src="<?php bloginfo('template_url'); ?>/img/logoYoutube_p.png" /></a></li>
-									<li><a href="#"><img title="Twitter"  alt="Twitter" src="<?php bloginfo('template_url'); ?>/img/logoTwitter_p.png" /></a></li>
-									<li><a href="#"><img title="Instagram"  alt="Instagram" src="<?php bloginfo('template_url'); ?>/img/logoInstagram_p.png" /></a></li>
-									<li><a href="#"><img title="Flickr"  alt="Flickr" src="<?php bloginfo('template_url'); ?>/img/logoFlickr_p.png" /></a></li>
-									<li><a href="#"><img title="Whatsapp"  alt="Whatsapp" src="<?php bloginfo('template_url'); ?>/img/logoWhatsapp_p.png" /></a></li>
-								</ul>
-							</footer>
-						</div>
+						<?php include "conteudoArtigo.php"; ?>
 
 					</article>
 				</div>
