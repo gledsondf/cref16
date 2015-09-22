@@ -3,39 +3,7 @@
 
 	<div id="menuLateral" class="col-quarto">
 		<aside>
-			<div id="contMenuAcessoRapido" class="contMenuLateral">
-				<nav>
-					<h1>Acesso Rápido</h1>
-					<ul>
-						<li><a href="">item menu lateral</a></li>
-						<li><a href="">item menu lateral</a></li>
-						<li><a href="">item menu lateral</a></li>
-						<li><a href="">item menu lateral</a></li>
-					</ul>
-				</nav>
-			</div>		
-			<div id="contMenuServico" class="contMenuLateral">
-				<nav>
-					<h1>Serviços</h1>
-					<ul>
-						<li><a href="">item menu lateral</a>
-							<ul>
-								<li><a href="">item menu lateral</a></li>
-								<li><a href="">item menu lateral</a></li>	
-							</ul>
-						</li>
-						<li><a href="">item menu lateral</a></li>
-						<li><a href="">item menu lateral</a></li>
-						<li><a href="">item menu lateral</a>
-							<ul>
-								<li><a href="">item menu lateral</a></li>
-								<li><a href="">item menu lateral</a></li>	
-							</ul>
-						</li>
-					</ul>
-				</nav>
-			</div>
-
+			<?php get_sidebar(); ?>
 		</aside>
 	</div><!--menuLateral-->
 
@@ -46,17 +14,16 @@
 				<h1>Identificação da página</h1>
 			</header>
 		</div>
-		<div id="contBanner" class="row">
-<!-- 			<div class="imgBanner"></div>
- -->		
-			 <div id="myCarousel" class="carousel slide">
+<!-- 		<div id="contBanner" class="row">
+ --><!-- 			<div class="imgBanner"></div>-->		
+<!-- 			 <div id="myCarousel" class="carousel slide">
 			 	<ol class="carousel-indicators">
 			 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			 		<li data-target="#myCarousel" data-slide-to="1"></li>
 			 		<li data-target="#myCarousel" data-slide-to="2"></li>
-			 	</ol>
+			 	</ol> -->
 			 	<!-- Carousel items -->
-			 	<div class="carousel-inner">
+<!-- 			 	<div class="carousel-inner">
 			 		<div class="active item">
 			 			<img src="http://marktyrrell.com/labs/blueberry/img/slide1.jpg" />
 			 			<div class="carousel-caption">
@@ -78,13 +45,13 @@
 			 				<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 			 			</div>
 			 		</div>
-			 	</div>
+			 	</div> -->
 			 	<!-- Carousel nav -->
-			 	<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+<!-- 			 	<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 			 	<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-			 </div>
-		</div> 
-
+			 </div> -->
+<!-- 		</div> 
+ -->
 
 		<?php /* O Ciclo — com comentários! */ ?>
 		<?php while ( have_posts() ) : the_post() ?>

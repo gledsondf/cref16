@@ -107,16 +107,16 @@
 		#topo {
 			position: relative;
 			margin: 0 0 0 0;
-			background: #009688  ;
-			background: #62917F;
 			background: #164547;
+			background: #004263;
+			border-bottom: 3px solid #C51A1A;
 		}
 
 		#logo {
 			height: 115px;
-			background: #fff;
+/*			background: #fff;
 			background: #C2DBCB;
-			background-color: rgba(194, 219, 203,0.5);
+			background-color: rgba(194, 219, 203,0.5);*/
 			background-image: url("../img/contours-opaque.png"),url("../img/bamboo.png");
   		}
   		div#contLogo {
@@ -135,9 +135,8 @@
 
 		#menu a {
 			text-decoration: none;
-			background: #009688;
-			background: #62917F;
 			background: #164547;
+			background: #004263;			
 
 			color: #fff;
 			padding:3px;
@@ -173,6 +172,7 @@
 		#menu ul li ul li a {
 			background: #477161;
 			background: #678A83;
+			background:#0099cc;
 		}
 
 		#menu ul li ul li {
@@ -189,8 +189,9 @@
 			border-top: 2px solid #fff;
 			/*border-radius: 0 0 10px 10px; */
 			width: 305px;
-			background: #62917F;
-			background: #164547;
+/*			background: #62917F;
+			background: #164547;*/
+			background:#004263;
 			padding: 0 0 10px;
 			box-shadow: 0 1px 20px 3px rgba(0,0,0,0.24);
 
@@ -211,7 +212,7 @@
 		li.fecharMenu a {
 			text-decoration: none;
 
-			background: #164547 !important;
+			background: none !important;
 			padding:3px !important;
 			display: block !important;
 		}		
@@ -238,8 +239,9 @@
 			text-decoration: none;
 			display: block;
 			padding: 3px;
-			background-color :#33b5e5;
-			background:#678A83;
+/*			background-color :#33b5e5;
+			background:#678A83;*/
+			background: #004263;
 			color: #fff;
 			transition:all 0.3s linear;
 			-webkit-transition:all 0.3s linear;
@@ -247,7 +249,7 @@
 
 		#menuLateral a:hover {
 			background-color: #0099cc;
-			background: #164547;
+			/*background: #164547;*/
 
 		}
 
@@ -258,7 +260,7 @@
 			box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 			position: relative;
 			background:#0099cc;
-			background: #164547;
+			/*background: #164547;*/
 		}
 
 		#menuLateral ul li:hover {
@@ -285,19 +287,21 @@
 			text-decoration: none;
 			display: block;
 			padding: 3px 3px 3px 10px;
-			background-color :#057398;
-			background: #678A83;
+/*			background-color :#057398;
+			background: #678A83;*/
+			background: #004263;
 			color: #fff;
 		}
 		#menuLateral ul li ul li a:hover {
 			background-color :#0099cc;
-			background: #164547;
+	/*		background: #164547;
+			background: #004263;*/
 		}
 
 		#menuLateral ul li ul {
 			padding: 0 0 10px;
 			background:#0099cc;
-			background: #164547;
+		/*	background: #164547;*/
 /*			border-radius: 0 0 10px 10px; 
 
 */		}
@@ -420,10 +424,10 @@
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx rodape*/
 		#geralRodape {
 
-			background: #c5c5c5;
-			background: #C5DECF;
 			background: #164547;
+			background: #004263;
 			position: relative;
+			border-top: 3px solid #C51A1A;
 		}
 		#contRodape {
 			margin: 0 auto;
@@ -530,7 +534,7 @@
 			z-index: 50000;
 			width: 90%;
 			box-shadow: 7px 10px 38px 4px rgba(0,0,0,0.80);
-			background: #164547;
+			background: #004263;
 
 		}
 		#menuN li {
@@ -552,7 +556,7 @@
 		#menu ul li:hover >ul {
 			border-top:0 !important;
 			width: 100% ;
-			background: #164547;
+			background: #004263;
 			padding: 0 ;
 			box-shadow: 0 !important;
 

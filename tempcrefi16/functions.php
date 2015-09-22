@@ -17,4 +17,11 @@ function get_page_number() {
  } // end get_page_number
 
 
+
+ //Remove a barra de administração trazida pelo wp_footer logo abaixo do rodapé
+
+remove_action('wp_footer', 'wp_admin_bar_render', 1000);
+
+
+
 ?>

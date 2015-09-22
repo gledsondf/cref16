@@ -34,5 +34,6 @@
 		document.getElementById("menuN").style.display="none";
 	}
 </script>
+ <?php wp_footer(); ?> 
 </body>
 </html>
