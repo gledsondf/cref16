@@ -370,6 +370,37 @@
 			height: 100%;
 		}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx artigo*/
+		div.principalArtigo ul {
+			list-style-type: none;
+		}
+		div.principalArtigo h2 {
+			font-size: 20px !important;
+/*			border-bottom: 1px solid #d5d5d5 !important;
+*/			font-weight: 700;
+			color: #0d8ba1;
+		}
+
+		div.principalArtigo h3 {
+			font-size: 20px !important;
+		}
+
+		div.principalArtigo h3 span {
+			font-size:12px;
+			font-family: verdana;
+			font-weight: 700; 
+		}
+		div.principalArtigo h3 span::after {
+			content: " - ";
+		}
+
+		div.listaNoticia ul li img {
+			margin:5px;
+			float: left;
+		}
+
+		div.listaEventos ul {
+			list-style-type: disc;
+		}
 		div.artigo {
 			margin: 0 0 20px;
 			padding: 0px 16px;
@@ -419,6 +450,15 @@
 		div.artfoot ul li {
 			text-decoration: none;
 			display: inline-block;
+		}
+
+
+		.cartao {
+			margin:0 0 15px 0;
+			padding: 5px;
+			box-shadow: 0px 3px 8px 1px rgba(0,0,0,0.2)!important;
+			/*0 6px 20px 0 rgba(0,0,0,0.19) */
+			
 		}
 
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx rodape*/
@@ -474,6 +514,13 @@
 		padding:20px 0;
 		border-radius:5px;
 		background:rgba(105, 141, 133, 0.27)*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx plugin metaSlider*/
+	.metaslider {
+		margin: 0 auto !important;
+/*		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+*/	}
+	
+
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx responsive*/
 	.col-col {width: 99.99999%;}
 	.col-metade {width: 49.99999%;}
