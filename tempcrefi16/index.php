@@ -15,7 +15,7 @@
 			</header>
 		</div>
 		<?php while ( have_posts() ) : the_post() ?>
-		<?php the_content( __( 'Continue reading <span class="meta-nav">»</span>', 'your-theme' )  ); ?>
+		<?php the_content( __( 'Leia mais <span class="meta-nav">»</span>', 'your-theme' )  ); ?>
 		<?php endwhile; ?>
 		<?php /* O Ciclo — com comentários! */ ?>
 

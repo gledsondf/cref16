@@ -80,8 +80,7 @@
 							<li><a href="">item menu lateral</a></li>	
 						</ul>	
 					</li>
-					<li><a href="">item menu</a></li>
-					<li><a href="">item menu</a></li>
+
 				</ul>
 			</nav>
 		</div>
