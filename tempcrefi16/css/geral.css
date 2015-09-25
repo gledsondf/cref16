@@ -408,7 +408,7 @@
 		div.artigo {
 			margin: 0 0 20px;
 			padding: 0px 16px;
-			min-height: 400px;
+			
 		}
 
 		div.artigo a,div.artigo a:visited,div.artigo a:link {
@@ -556,6 +556,7 @@
 		content: "";
 		display: block;
 		clear: both;
+
 	}
 
 	.container {

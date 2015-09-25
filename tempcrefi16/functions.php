@@ -50,4 +50,16 @@ function remove_images( $content ) {
 
 /*==========================================================================*/
 
+function register_my_menus() {
+  register_nav_menus(
+  	array(
+  			'menu-principal' => __('Menu Principal'),
+  			'menu-acesso-rapido' => __( 'Menu Acesso Rápido' ),
+  			'menu-servicos' => __('Serviços')
+  		)
+
+  );
+}
+add_action( 'init', 'register_my_menus' );
+
 ?>
