@@ -13,7 +13,7 @@
 	<?php /* O conteúdo da postagem */ ?>
 	<?php the_content( __( 'Continue reading <span class="meta-nav">»</span>', 'your-theme' )  ); ?>
 </div><!--artCont-->
-<div class="artFoot row">
+<!-- <div class="artFoot row">
 	<footer>
 		<div class="col-2terco">
 			<p>CREFFITO 16</p>
@@ -31,4 +31,4 @@
 			<li><a href="#"><img title="Whatsapp"  alt="Whatsapp" src="<?php bloginfo('template_url'); ?>/img/logoWhatsapp_p.png" /></a></li>
 		</ul>
 	</footer>
-</div>
+</div> -->

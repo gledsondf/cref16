@@ -428,6 +428,7 @@
 			margin-bottom: 10px;
 		}
 		div.artfoot {
+			margin: 20px 0 0 0;
 			border-top: 1px dotted  #ccc;
 		}
 
@@ -452,9 +453,19 @@
 		div.artfoot ul {
 			padding: 10px 5px;
 		}
+
+		div.artfoot ul li:first-child {
+			display: block;
+		}
+		
+		div.artfoot ul li span {
+			font-weight: 700;
+			font-size: 10px;
+		}
 		div.artfoot ul li {
 			text-decoration: none;
 			display: inline-block;
+			margin: 0 3px 0 0;
 		}
 
 

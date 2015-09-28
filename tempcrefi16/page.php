@@ -17,6 +17,10 @@
 
 		<?php /* O Ciclo — com comentários! */ ?>
 		<?php while ( have_posts() ) : the_post() ?>
+		<?php 
+			//remove o filtro de link das midias sociais desta página
+			remove_filter ('the_content','midiaSocialbtn');
+		?>
 		<?php /* Criando uma div com um ID único graças ao the_ID() e classes semânticas com o post_class() */ ?>
 				<div id="post-<?php the_ID(); ?>" class="artigo row">
 					<article>

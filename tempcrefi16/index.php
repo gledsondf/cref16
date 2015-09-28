@@ -15,6 +15,10 @@
 			</header>
 		</div>
 		<?php while ( have_posts() ) : the_post() ?>
+		<?php
+		//remove o filtro de link das midias sociais desta página 
+			remove_filter ('the_content','midiaSocialbtn');
+		?>
 		<?php the_content( __( 'Leia mais <span class="meta-nav">»</span>', 'your-theme' )  ); ?>
 		<?php endwhile; ?>
 		<?php /* O Ciclo — com comentários! */ ?>
