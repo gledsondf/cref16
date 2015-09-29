@@ -457,7 +457,7 @@
 		div.artfoot ul li:first-child {
 			display: block;
 		}
-		
+
 		div.artfoot ul li span {
 			font-weight: 700;
 			font-size: 10px;
@@ -477,6 +477,10 @@
 			
 		}
 
+		div#erroPagina {
+			min-height: 450px;
+			background: url("../img/cade.jpg") no-repeat;
+		}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx rodape*/
 		#geralRodape {
 

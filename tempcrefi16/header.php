@@ -33,6 +33,10 @@
 </head>
 
 <body>
+	<?php
+		//inclui o código do google analytics
+ 		include_once("analyticstracking.php");
+ 	?>	
 <!-- 
 <div id="branding">
     <div id="blog-title"><span><a href="<?php bloginfo( 'url' ) ?>/" title="<?php bloginfo( 'name' ) ?>" rel="home"><?php bloginfo( 'name' ) ?></a></span></div>

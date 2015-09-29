@@ -5,7 +5,7 @@
 		<footer>
 			<div id="enderecoRodape" class="col-2terco">
 				<address>
-					SEDE: SRTVS quadra 701, conjunto L, Edifício Assis Chateaubriand,<br /> bloco II, salas 602/614 CEP 70.340-906 - Brasília (DF).<br />Telefone:(61)3035-3800 Fax:(61) 3321-0828.
+					SEDE: Av. do Vale, Quadra 23, Lote 09, Sala 305. Ed. Carraras,<br /> Bairro: Renascença II   CEP 65075-660 - São Luís/MA.<br />Telefones:(98) 3304-7779 / 3304-7774.
 				</address>
 
 			</div>

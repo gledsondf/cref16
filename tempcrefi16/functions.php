@@ -105,4 +105,8 @@ function midiaSocialbtn ($content) {
 
 add_filter ('the_content','midiaSocialbtn');
 
+
 ?>
+
+
+
