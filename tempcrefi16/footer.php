@@ -10,7 +10,7 @@
 
 			</div>
 			<div id="midiaRodape" class="col-terco">
-				<ul>
+<!-- 				<ul>
 					<li><a href="#"><img title="facebook"  alt="facebook" src="<?php bloginfo('template_url'); ?>/img/logoFace.png" /></a></li>
 					<li><a href="#"><img title="Youtube"  alt="Youtube" src="<?php bloginfo('template_url'); ?>/img/logoYoutube.png" /></a></li>
 					<li><a href="#"><img title="Twitter"  alt="Twitter" src="<?php bloginfo('template_url'); ?>/img/logoTwitter.png" /></a></li>
@@ -18,7 +18,7 @@
 					<li><a href="#"><img title="Flickr"  alt="Flickr" src="<?php bloginfo('template_url'); ?>/img/logoFlickr.png" /></a></li>
 					<li><a href="#"><img title="Whatsapp"  alt="Whatsapp" src="<?php bloginfo('template_url'); ?>/img/logoWhatsapp.png" /></a></li>
 				</ul>
-				
+				 -->
 				
 			</div>
 		</footer>

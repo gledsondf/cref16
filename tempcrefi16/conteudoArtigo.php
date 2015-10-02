@@ -11,7 +11,7 @@
 </div><!--artTopo-->
 <div class="artCont row">
 	<?php /* O conteúdo da postagem */ ?>
-	<?php the_content( __( 'Continue reading <span class="meta-nav">»</span>', 'your-theme' )  ); ?>
+	<?php the_content( __( 'Leia Mais <span class="meta-nav">»</span>', 'your-theme' )  ); ?>
 </div><!--artCont-->
 <!-- <div class="artFoot row">
 	<footer>
