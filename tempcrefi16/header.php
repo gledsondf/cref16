@@ -68,23 +68,6 @@
 					<li class="fecharMenu" ><a href="#" onclick="fecharMenu()"><img src="<?php bloginfo('template_url'); ?>/img/fecharMenu.png" /></a></li>
 				<?php wp_nav_menu( array( 'theme_location' => 'menu-principal','items_wrap' => '%3$s','container' => '', ) ); ?>
 				<!-- 	<?//php wp_list_pages('title_li='); ?> -->
-					<li><a href="">item menu</a>
-						<ul>
-							<li><a href="">item menu lateral</a></li>
-							<li><a href="">item menu lateral</a></li>	
-						</ul>						
-					</li>
-					<li><a href="">item menu</a></li>
-					<li><a href="">item menu</a></li>
-					<li><a href="">item menu</a></li>
-					<li><a href="">item menu</a></li>
-					<li><a href="">item menu</a>
-						<ul>
-							<li><a href="">item menu lateral</a></li>
-							<li><a href="">item menu lateral</a></li>
-							<li><a href="">item menu lateral</a></li>	
-						</ul>	
-					</li>
 
 				</ul>
 			</nav>

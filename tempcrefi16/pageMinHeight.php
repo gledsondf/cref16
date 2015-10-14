@@ -1,4 +1,5 @@
 	
+	<?php /*Template Name: Pagina Com altura mínima*/?>
 	<?php get_header(); ?>
 
 	<div id="menuLateral" class="col-quarto">
@@ -17,10 +18,14 @@
 
 		<?php /* O Ciclo — com comentários! */ ?>
 		<?php while ( have_posts() ) : the_post() ?>
+		<?php 
+			//remove o filtro de link das midias sociais desta página
+			remove_filter ('the_content','midiaSocialbtn');
+		?>
 		<?php /* Criando uma div com um ID único graças ao the_ID() e classes semânticas com o post_class() */ ?>
-				<div id="post-<?php the_ID(); ?>" class="artigo row">
+				<div id="post-<?php the_ID(); ?>" class="artigo row alturaMinima">
 					<article>
-						<?php include "conteudoArtigo.php"; ?>
+						<?php include "conteudoPagina.php"; ?>
 
 					</article>
 				</div>
